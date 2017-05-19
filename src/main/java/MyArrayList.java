@@ -2,12 +2,24 @@
  * Created by rahmirford on 5/19/17.
  */
 public class MyArrayList<E> {
-    E arrayIndexValue;
+   private E arrayIndexValue;
+   private E[] myArray;
+   private int arrayIndexCounter;
 
 
-    public void add(int i){}
+    public MyArrayList(){
+        myArray = (E[]) new Object[10];
+        arrayIndexCounter = 0;
+    }
 
-    public E get(E i){
+    public void add(E e){
+        myArray[arrayIndexCounter] = e;
+        arrayIndexCounter++;
+
+    }
+
+    public E get(int i){
+        arrayIndexValue = myArray[i];
         return arrayIndexValue;
     }
 

@@ -11,18 +11,22 @@ MyArrayList<E> myArrayList;
 
     @Before
     public void setup(){
-        MyArrayList myArrayList = new MyArrayList();
-    }
+        myArrayList = new MyArrayList<E>();
+  }
 
     @Test
     public void testAdd(){
         //:
-        MyArrayList<E> myArrayList = new MyArrayList<E>();
+        MyArrayList<Integer> myArrayList = new MyArrayList<Integer>();
+        Integer integer3 = new Integer(3);
+        Integer integer4 = new Integer(4);
+
+//        int expected = 3;
         //:
-        myArrayList.add(1);
-        myArrayList.add(3);
+        myArrayList.add(integer3);
+        myArrayList.add(integer4);
         //:
-        Assert.assertTrue(myArrayList != null);
+        Assert.assertEquals("", integer3, myArrayList.get(0));
     }
 
     @Test
