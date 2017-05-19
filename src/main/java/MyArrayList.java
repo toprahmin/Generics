@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by rahmirford on 5/19/17.
  */
@@ -23,7 +25,21 @@ public class MyArrayList<E> {
         return arrayIndexValue;
     }
 
-    public void remove(E e){}
+    // refactor to account for instances of removal where i is less than arrayLength -1
+    // (i in the middle of the array)
+    public void remove(int i){
+        myArray[i] = null;
+        int tempIndexCounter = 0;
+        E[] temp =(E[]) new Object[arrayIndexCounter];
+        for(E index: myArray){
+            if(myArray[tempIndexCounter] != null){
+                temp[tempIndexCounter] = index;
+            }
+            tempIndexCounter++;
+        }
+       myArray = temp;
+
+    }
 
     public void set(E e) {}
 

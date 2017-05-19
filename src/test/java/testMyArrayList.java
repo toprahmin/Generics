@@ -31,11 +31,25 @@ MyArrayList<E> myArrayList;
 
     @Test
     public void testGet(){
+        //:
+        MyArrayList<String> myArrayList = new MyArrayList<String>();
+        String expected = "foxtrot";
+        myArrayList.add("foxtrot");
+        String actual = myArrayList.get((0));
+        Assert.assertEquals("This index should return foxtrot", expected,actual);
 
     }
 
     @Test
     public void testRemove(){
+        MyArrayList<Integer> myArrayList = new MyArrayList<Integer>();
+        myArrayList.add(4);
+        myArrayList.add(6);
+        myArrayList.add(2);
+        myArrayList.remove(2);
+        Integer expected = 6;
+        Assert.assertEquals("index 2 of myArrayList should return null", expected,myArrayList.get(1));
+
 
     }
 
