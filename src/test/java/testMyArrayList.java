@@ -49,18 +49,31 @@ MyArrayList<E> myArrayList;
         myArrayList.remove(2);
         Integer expected = 6;
         Assert.assertEquals("index 2 of myArrayList should return null", expected,myArrayList.get(1));
-
-
     }
 
     @Test
     public void testSet(){
-
+        MyArrayList<String>myArrayList = new MyArrayList<String>();
+        myArrayList.add("why");
+        myArrayList.add("do");
+        myArrayList.add("cats");
+        myArrayList.add("drink");
+        myArrayList.add("milk");
+        myArrayList.set(4,"leche");
+        String expectedValue = "leche";
+        String actualValue = myArrayList.get(4);
+        Assert.assertEquals("The expected return value of myArrayList[3] is leche", expectedValue,actualValue);
     }
 
     @Test
     public void testClear(){
-
+        MyArrayList<String>myArrayList = new MyArrayList<String>();
+        myArrayList.add("one");
+        myArrayList.add("two");
+        myArrayList.add("three");
+        myArrayList.add("four");
+        myArrayList.clear();
+        Assert.assertNull(myArrayList.get();
     }
 
     @Test

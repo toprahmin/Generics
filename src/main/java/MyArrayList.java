@@ -41,7 +41,9 @@ public class MyArrayList<E> {
 
     }
 
-    public void set(E e) {}
+    public void set(int i,E e) {
+        myArray[i] = e;
+    }
 
     public void clear(){}
 
