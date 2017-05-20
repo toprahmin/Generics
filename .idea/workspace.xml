@@ -35,11 +35,13 @@
           <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/MyArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="583">
-                  <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+                <state relative-caret-position="598">
+                  <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
                   <folding>
-                    <element signature="e#1021#1022#0" expanded="true" />
-                    <element signature="e#1051#1052#0" expanded="true" />
+                    <element signature="e#1050#1051#0" expanded="true" />
+                    <element signature="e#1080#1081#0" expanded="true" />
+                    <element signature="e#1531#1532#0" expanded="true" />
+                    <element signature="e#1571#1572#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,8 +54,8 @@
           <file leaf-file-name="testMyArrayList.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/testMyArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="583">
-                  <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+                <state relative-caret-position="433">
+                  <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#218#219#0" expanded="true" />
@@ -63,6 +65,9 @@
                     <element signature="e#1093#1102#0" expanded="true" />
                     <element signature="e#1454#1462#0" expanded="true" />
                     <element signature="e#1968#1976#0" expanded="true" />
+                    <element signature="e#2374#2383#0" expanded="true" />
+                    <element signature="e#2751#2759#0" expanded="true" />
+                    <element signature="e#3175#3183#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -84,8 +89,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/testMyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -223,49 +228,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.testMyArrayList.testSet">
-    <configuration default="false" name="testMyArrayList.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="generics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="testMyArrayList.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="generics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
-      <option name="METHOD_NAME" value="testGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.testMyArrayList.testContains">
     <configuration default="false" name="testMyArrayList.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="generics" />
@@ -287,14 +250,77 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="testMyArrayList.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="testMyArrayList.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="generics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
-      <option name="METHOD_NAME" value="testSet" />
+      <option name="METHOD_NAME" value="testSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="testMyArrayList.testClear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
+      <option name="METHOD_NAME" value="testClear" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="testMyArrayList.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="testMyArrayList.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testMyArrayList" />
+      <option name="METHOD_NAME" value="testContains" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -681,18 +707,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testAdd" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testGet" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testRemove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testSet" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testRemove" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testSize" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testClear" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testIsEmpty" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testContains" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testSet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testRemove" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testGet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testAdd" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testContains" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testIsEmpty" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testClear" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testRemove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.testMyArrayList.testSize" />
       </list>
     </recent_temporary>
   </component>
@@ -706,44 +734,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495220524454</updated>
-      <workItem from="1495220525872" duration="14987000" />
+      <workItem from="1495220525872" duration="25503000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 16m 31s.xml">
+    <history-entry file="testMyArrayList_testClear - 2017.05.19 at 22h 03m 12s.xml">
+      <configuration name="testMyArrayList.testClear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testClear - 2017.05.19 at 22h 05m 43s.xml">
+      <configuration name="testMyArrayList.testClear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testClear - 2017.05.19 at 22h 18m 37s.xml">
+      <configuration name="testMyArrayList.testClear" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testContains - 2017.05.20 at 00h 02m 04s.xml">
+      <configuration name="testMyArrayList.testContains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testContains - 2017.05.20 at 00h 19m 48s.xml">
+      <configuration name="testMyArrayList.testContains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testContains - 2017.05.20 at 00h 23m 36s.xml">
+      <configuration name="testMyArrayList.testContains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testContains - 2017.05.20 at 00h 23m 47s.xml">
+      <configuration name="testMyArrayList.testContains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testContains - 2017.05.20 at 00h 23m 56s.xml">
+      <configuration name="testMyArrayList.testContains" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testIsEmpty - 2017.05.19 at 22h 58m 09s.xml">
+      <configuration name="testMyArrayList.testIsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 22h 06m 06s.xml">
       <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 18m 39s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 21m 57s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 24m 01s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 24m 12s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 25m 57s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testRemove - 2017.05.19 at 19h 26m 43s.xml">
-      <configuration name="testMyArrayList.testRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testSet - 2017.05.19 at 21h 11m 12s.xml">
-      <configuration name="testMyArrayList.testSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testSet - 2017.05.19 at 21h 11m 48s.xml">
-      <configuration name="testMyArrayList.testSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMyArrayList_testSet - 2017.05.19 at 21h 12m 26s.xml">
-      <configuration name="testMyArrayList.testSet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14987000" />
+    <option name="totallyTimeSpent" value="25503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-40" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -788,7 +816,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -805,21 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testMyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+        <state relative-caret-position="433">
+          <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
@@ -829,6 +846,22 @@
             <element signature="e#1093#1102#0" expanded="true" />
             <element signature="e#1454#1462#0" expanded="true" />
             <element signature="e#1968#1976#0" expanded="true" />
+            <element signature="e#2374#2383#0" expanded="true" />
+            <element signature="e#2751#2759#0" expanded="true" />
+            <element signature="e#3175#3183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
           </folding>
         </state>
       </provider>

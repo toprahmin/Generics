@@ -37,6 +37,7 @@ public class MyArrayList<E> {
             }
             tempIndexCounter++;
         }
+        arrayIndexCounter--;
        myArray = temp;
 
     }
@@ -45,11 +46,31 @@ public class MyArrayList<E> {
         myArray[i] = e;
     }
 
-    public void clear(){}
+    public void clear(){
+        myArray = (E[]) new Object[0];
+        arrayIndexCounter = 0;
+    }
 
-    public boolean isEmpty(){return true;}
+    public boolean isEmpty(){
+        if(arrayIndexCounter == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
-    public boolean contains(){return true;}
+    public boolean contains(E e){
+        for(Object o: myArray) {
+            if (o.equals(e))
+                return true;
+        }
+                return false;
+    }
+
+
+    public int size(){
+        return arrayIndexCounter;
+    }
 
 
 }

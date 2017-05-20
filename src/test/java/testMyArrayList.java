@@ -72,18 +72,41 @@ MyArrayList<E> myArrayList;
         myArrayList.add("two");
         myArrayList.add("three");
         myArrayList.add("four");
+        int expectedValue = 0;
         myArrayList.clear();
-        Assert.assertNull(myArrayList.get();
+        Assert.assertEquals("This arrayList should return 0",expectedValue, myArrayList.size());
     }
 
     @Test
     public void testIsEmpty(){
-
+        MyArrayList<Integer> myArrayList = new MyArrayList<Integer>();
+        myArrayList.clear();
+        boolean expectedReturnValue = true;
+        boolean actualReturnValue =myArrayList.isEmpty();
+        Assert.assertTrue("The expected return value of the isEmpty method is true",actualReturnValue == expectedReturnValue);
     }
 
     @Test
     public void testContains(){
+        MyArrayList<String> myArrayList = new MyArrayList<String>();
+        myArrayList.add("the");
+        myArrayList.add("work");
+        myArrayList.add("cray");
+        boolean expectedValueReturn = true;
+        boolean actualValueReturn = myArrayList.contains("work");
+        Assert.assertEquals("MyArrayList should return true", expectedValueReturn ,actualValueReturn);
+    }
 
+    @Test
+    public void testSize(){
+        MyArrayList<String>myArrayList = new MyArrayList<String>();
+        myArrayList.add("blue");
+        myArrayList.add("white");
+        myArrayList.add("red");
+        myArrayList.remove(2);
+        int expectedArrayListSize = 2;
+        int actualArrayListSize = myArrayList.size();
+        Assert.assertEquals("The expected arraylist size should be 3", expectedArrayListSize,actualArrayListSize);
     }
 
 
